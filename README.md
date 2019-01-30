@@ -6,14 +6,14 @@ This component has been created as a result of the Q-Rapids project funded by th
 ## Main Functionality
 This component wraps [qrapids-si_assessment](https://github.com/q-rapids/qrapids-si_assessment) library in order to access it as a RESTful service.
 
-## Technologies
+## Technologies
 |Property|Description|
-| -------------------- | ----------------------|
-| Type of component    | RESTful Service       |
-| Build                | .war                  |
-| Programming language | Java                  |
-| Frameworks           | Spring Boot, Gradle   |
-| External libraries   | qrapids-si_assessment |
+| -------------------- | ---------|
+| Type of component    | Library  |
+| Build                | .jar     |
+| Programming language | Java     |
+| Frameworks           | Gradle   |
+| External libraries   | UnBBayes |
 
 ## Documentation
 You can find the user documentation in the repository [Wiki](https://github.com/q-rapids/qrapids-si_assessment-rest/wiki) and the technical documentation of the RESTful API [here](https://qrapids.github.io/qrapids-si_assessment-rest).
