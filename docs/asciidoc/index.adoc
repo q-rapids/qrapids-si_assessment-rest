@@ -1,0 +1,15 @@
+= SI Assessment Api REST Documentation
+v1.0, {docdate}
+:toc: left
+
+:sectnums:
+
+== Introduction
+RESTful wrapper for si_assessment library
+
+== Endpoints
+
+=== Assess SI
+Performs the assessment of one Strategic Indicator using a Bayesian Network, based on its factors and their categories.
+
+operation::si/assessment[snippets='request-parameters,request-parts,curl-request,response-fields,http-response']
