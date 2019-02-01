@@ -16,7 +16,7 @@ This component wraps [qrapids-si_assessment](https://github.com/q-rapids/qrapids
 | External libraries   | UnBBayes |
 
 ## Documentation
-You can find the user documentation in the repository [Wiki](https://github.com/q-rapids/qrapids-si_assessment-rest/wiki) and the technical documentation of the RESTful API [here](https://qrapids.github.io/qrapids-si_assessment-rest).
+You can find the user documentation in the repository [Wiki](https://github.com/q-rapids/qrapids-si_assessment-rest/wiki) and the technical documentation of the RESTful API [here](https://q-rapids.github.io/qrapids-si_assessment-rest).
 
 ## Contributing
 You can find guidelines to contribute to the project in the [Q-Rapids repository](https://github.com/q-rapids/q-rapids/blob/master/CONTRIBUTING.md).
