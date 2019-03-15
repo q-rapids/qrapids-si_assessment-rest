@@ -14,13 +14,21 @@ buildscript {
 }
 
 apply plugin: 'java'
+apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'org.asciidoctor.convert'
+apply plugin: 'war'
 
 group = 'com.upc.gessi.qrapids'
-version = '0.0.1'
-sourceCompatibility = '1.8'
+version = '0.1'
+sourceCompatibility = 1.8
+
+war {
+    baseName = 'qr-si_assessment-rest'
+    version = version
+    enabled = true
+}
 
 repositories {
     mavenCentral()
