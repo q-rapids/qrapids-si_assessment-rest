@@ -8,12 +8,12 @@ This component wraps [qrapids-si_assessment](https://github.com/q-rapids/qrapids
 
 ## Technologies
 |Property|Description|
-| -------------------- | ---------|
-| Type of component    | Library  |
-| Build                | .jar     |
-| Programming language | Java     |
-| Frameworks           | Gradle   |
-| External libraries   | UnBBayes |
+| -------------------- | ----------------------|
+| Type of component    | RESTful Service       |
+| Build                | .war                  |
+| Programming language | Java                  |
+| Frameworks           | Spring Boot, Gradle   |
+| External libraries   | qrapids-si_assessment |
 
 ## How to build
 This is a Gradle project. You can use any IDE that supports Gradle to build it, or alternatively you can use the command line using the Gradle wrapper with the command *__gradlew__* if you don't have Gradle installed on your machine or with the command *__gradle__* if you do, followed by the task *__war__*.
