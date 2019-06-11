@@ -25,8 +25,17 @@ gradlew war
 ```
 After the build is done the WAR file can be found at the __build/libs__ directory
 
+## How to deploy
+
+Prerequisites: 
+* A web server, e.g. Tomcat
+* Oracle Java JRE
+
+Deployment steps:
+1. Deploy qrapids-si_assessment-rest-X.Y.X.war in your Web Server
+
 ## Documentation
-You can find the user documentation in the repository [Wiki](https://github.com/q-rapids/qrapids-si_assessment-rest/wiki) and the technical documentation of the RESTful API [here](https://q-rapids.github.io/qrapids-si_assessment-rest).
+You can find the technical documentation of the RESTful API [here](https://q-rapids.github.io/qrapids-si_assessment-rest).
 
 ## Contributing
 You can find guidelines to contribute to the project in the [Q-Rapids repository](https://github.com/q-rapids/q-rapids/blob/master/CONTRIBUTING.md).
